@@ -39,11 +39,36 @@ li {
 .menu {
 	position: absolute;
 	right: 10px;
-	top: 10px;
+	top: 8px;
+	height: 38px;
+	line-height: 38px;
+	vertical-align: middle;
+}
+
+.menu ul {
+	margin: 0;
+}
+
+.menu li {
+	margin-left: 10px;
 }
 
 #option_grid {
-	max-height: 5px;
+	max-width: 25px;
+}
+
+#notification_bell {
+	max-width: 25px;
+}
+
+#notification_bell:before {
+	content: '';
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px; 
 }
 
 #account span {
